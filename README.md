@@ -1,35 +1,23 @@
-# Data Wrangling & Insights: Análise do Catálogo de Filmes e Séries
+# Manipulação e Tratamento de Dados com Pandas (Google Colab)
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Data Analysis](https://img.shields.io/badge/Data-Analysis-blue?style=for-the-badge)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 
-## 📌 Objetivo do Projeto
-Este projeto demonstra a aplicação de técnicas avançadas de **Data Wrangling** e **Análise Exploratória (EDA)** em um dataset bruto de títulos cinematográficos. O foco principal foi transformar dados não estruturados e sujos em uma base de dados otimizada para Business Intelligence.
+## 📌 Descrição do Projeto
+Este projeto apresenta o tratamento inicial e a exploração de um dataset de filmes utilizando a biblioteca **Pandas** no ambiente **Google Colab**. O foco foi a limpeza técnica e a reestruturação dos dados para facilitar consultas e filtros específicos.
 
-## 🛠️ Etapas do Pipeline de Dados
+## 🛠️ Funcionalidades Implementadas
+* **Data Ingestion:** Leitura e carregamento de arquivos CSV em ambiente Cloud.
+* **Exploração de Dados:** Uso de métodos como `.head()`, `.info()` e `.describe()` para análise da estrutura e tipos de dados.
+* **Data Cleaning & Rename:** Tradução e padronização dos nomes das colunas para PT-BR, tornando o dataset mais intuitivo e organizado.
+* **Tratamento de Tipos:** Conversão de strings e limpeza de valores nulos (NaN) em colunas críticas.
+* **Filtragem Dinâmica:** Aplicação de filtros lógicos para extração de subconjuntos de dados baseados em critérios específicos (como duração e ano).
 
-### 1. Extração e Limpeza (Data Cleaning)
-* Identificação e tratamento de valores ausentes (**NaN**) para garantir a integridade estatística.
-* Normalização do schema: Tradução e padronização dos nomes das colunas para PT-BR, seguindo boas práticas de governança.
-
-### 2. Engenharia de Atributos (Feature Engineering)
-* **Conversão de Tipos:** Transformação de dados de objetos (strings) para tipos numéricos e temporais.
-* **Criação de Métrica Crítica:** Desenvolvimento da coluna `duracao_min`. Através de técnicas de manipulação de strings (Regex/Replace), extraí os valores numéricos dos tempos de duração, permitindo análises de média, mediana e desvios de tempo.
-
-### 3. Análise Exploratória (EDA)
-* Análise de distribuição por gênero e país de origem.
-* Verificação de tendências de lançamento ao longo das décadas.
-
-## 🚀 Tecnologias Utilizadas
-* **Python 3.x**
-* **Pandas:** Manipulação e tratamento de dados.
-* **NumPy:** Suporte matemático para conversão de tipos.
-* **Matplotlib/Seaborn:** Visualização de padrões ocultos.
-
-## 📊 Como Executar
-1. Instale as dependências: `pip install -r requirements.txt`
-2. Abra o notebook: `jupyter notebook Python_Pandas.ipynb`
+## 🚀 Tecnologias
+* **Python 3**
+* **Pandas** (Library principal)
+* **Google Colab** (IDE)
 
 ---
-**Desenvolvido por Alef Barbosa** *Especialista em Infraestrutura e Analista de Dados em formação.*
+**Desenvolvido por Alef Barbosa**
